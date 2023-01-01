@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+#container > div {
+    border: 1px solid black;
+    width: 22vw;
+    height: 30vh;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    border-radius: 50%;
+    width: 3rem;
+    font-size: 2.5rem;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17,238,70,0.62);
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9,134,238,0.62);
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(121,10,238,0.85);
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238,136,25,0.85);
+}
+
+.five {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 97%;
+    align-items: center;
+    background-color: rgba(238,35,12,0.85);
+
+}
+
+.six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27,238,147,0.85);
+}
+
+.seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(43,181,238,0.85);
+}
+
+.eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196,26,238,0.54);
+}
+
+.nine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+
